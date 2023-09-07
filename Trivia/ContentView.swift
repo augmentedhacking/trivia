@@ -26,6 +26,7 @@ struct ContentView: View {
                     .resizable()
                     .aspectRatio(contentMode: .fit)
             }
+            .frame(height: 250)
             
             Text("Name the show")
                 .font(.system(size: 44))
